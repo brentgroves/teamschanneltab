@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.13/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.13",
+  "id": "b9587a80-be09-11ed-a148-dbbef84ed2e0",
+  "version": "0.0.1",
+  "packageName": "teamschanneltab",
+  "developer": {
+    "name": "Mobex",
+    "websiteUrl": "https://edde-64-184-36-239.ngrok.io",
+    "privacyUrl": "https://edde-64-184-36-239.ngrok.io/privacy.html",
+    "termsOfUseUrl": "https://edde-64-184-36-239.ngrok.io/tou.html"
+  },
+  "name": {
+    "short": "teamschanneltab",
+    "full": "teamschanneltab"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://edde-64-184-36-239.ngrok.io/testTab/config.html?name={loginHint}&tenant={tid}&group={groupId}&theme={theme}",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team"
+      ]
+    }
+  ],
+  "staticTabs": [],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "edde-64-184-36-239.ngrok.io"
+  ],
+  "showLoadingIndicator": false,
+  "isFullScreen": false
+}
